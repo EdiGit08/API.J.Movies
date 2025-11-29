@@ -12,5 +12,6 @@ namespace API.J.Movies.DAL
 
         //Definir los DbSets (tablas) que voy a utilizar en mi aplicaciòn
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Movie> Movies { get; set; }
     }
 }
